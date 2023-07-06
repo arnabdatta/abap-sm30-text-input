@@ -28,36 +28,9 @@ Click on attributes icon at the top to open and give the icon and function code 
 
 In the flow logic add one module in the end and double click to create it.
 
-PROCESS BEFORE OUTPUT.
- MODULE LISTE_INITIALISIEREN.
- LOOP AT EXTRACT WITH CONTROL
-  TCTRL_ZSM30_DEMO CURSOR NEXTLINE.
-   MODULE LISTE_SHOW_LISTE.
- ENDLOOP.
-*
-PROCESS AFTER INPUT.
- MODULE LISTE_EXIT_COMMAND AT EXIT-COMMAND.
- MODULE LISTE_BEFORE_LOOP.
- LOOP AT EXTRACT.
-   MODULE LISTE_INIT_WORKAREA.
-   CHAIN.
-    FIELD ZSM30_DEMO-VALUE .
-    FIELD ZSM30_DEMO-TEXT .
-    MODULE SET_UPDATE_FLAG ON CHAIN-REQUEST.
-   ENDCHAIN.
-   FIELD VIM_MARKED MODULE LISTE_MARK_CHECKBOX.
-   CHAIN.
-    FIELD ZSM30_DEMO-VALUE .
-    MODULE LISTE_UPDATE_LISTE.
-   ENDCHAIN.
- ENDLOOP.
- MODULE LISTE_AFTER_LOOP.
- MODULE BTN_EDIT_TEXT.   " <====== Add here
-Write the below code in the module.
+Check MODULE.abap in code.
 
-Check attached code for module source.
-
-
+Check BTN_EDIT_TEXT.abap for module source.
 
 Now you have fully functional Sm30 with a popup taking more than 255 characters. The last touch , you can also make the text field read only so that user will only use the popup to enter the long text.
 
