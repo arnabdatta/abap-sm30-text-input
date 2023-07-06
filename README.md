@@ -1,4 +1,7 @@
 # abap-sm30-text-input
+
+Author: Arnab Datta
+
 Display and save text more than 255 characters from SAP GUI SM30 Transaction
 Hi folks,
 
