@@ -44,7 +44,7 @@ Now you have fully functional Sm30 with a popup taking more than 255 characters.
 ![sm30_demo](https://github.com/arnabdatta/abap-sm30-text-input/assets/1858399/d24120a7-37ae-42af-9781-3e4e75f4d62d)
  
 
-Hope this helps! Let me know in your comments any improvement I can do to this.
+Hope this helps!
 
 
 Happy coding!! 🙂
