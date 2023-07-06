@@ -46,9 +46,5 @@ Now you have fully functional Sm30 with a popup taking more than 255 characters.
 
 Hope this helps! Let me know in your comments any improvement I can do to this.
 
- 
-To know more about SM30 events and variables please check the SAP Help site.
-
-Extended Table Maintenance Events | SAP Help Portal
 
 Happy coding!! 🙂
