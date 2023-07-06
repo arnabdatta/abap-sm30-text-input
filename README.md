@@ -31,9 +31,9 @@ Click on attributes icon at the top to open and give the icon and function code 
 
 In the flow logic add one module in the end and double click to create it.
 
-Check MODULE.abap in code.
+[Check MODULE.abap in code](MODULE.abap)
 
-Check BTN_EDIT_TEXT.abap for module source.
+[Check BTN_EDIT_TEXT.abap for module source](BTN_EDIT_TEXT.abap)
 
 Now you have fully functional Sm30 with a popup taking more than 255 characters. The last touch , you can also make the text field read only so that user will only use the popup to enter the long text.
 
