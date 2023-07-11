@@ -60,7 +60,7 @@ MODULE btn_edit_text INPUT.
 
       CLEAR lv_changed_text.
       LOOP AT lt_text INTO DATA(ls_text).
-        CONCATENATE lv_changed_text ls_text INTO lv_changed_text.
+        CONCATENATE lv_changed_text ls_text INTO lv_changed_text SEPARATED BY space.
       ENDLOOP. " LOOP AT lt_text INTO DATA(ls_text)
 
       CONDENSE lv_changed_text.
